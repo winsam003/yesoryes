@@ -54,7 +54,7 @@ export default function RunawayButtonPage() {
           <Button
             size="lg"
             className="bg-primary text-white hover:bg-primary/90 rounded-full px-10 text-xl font-bold transition-all shadow-lg"
-            onClick={() => alert('사랑해 !!!! 💞💞💞💞')}
+            onClick={() => alert('나도좋아 !!!! 💞💞💞💞')}
           >
             예!
           </Button>
