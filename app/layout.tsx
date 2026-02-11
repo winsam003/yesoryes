@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'yes or yes. 💍',
   openGraph: {
     title: '나랑 오늘 맛있는 거 먹으러 갈래? 🍕',
-    description: '어딜 도망가! 못 누르지? 😏',
+    description: 'yes or yes 😏',
     // 아까 생성한 이미지를 public 폴더에 넣었다면 아래 주소를 활용하세요
     // images: [{ url: '/og-image.png' }], 
   },
