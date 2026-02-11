@@ -74,7 +74,7 @@ export default function MakeLinkPage() {
                     <div className="space-y-2">
                         <label className="text-sm font-bold text-slate-700 ml-1">네이버 검색어 (선택)</label>
                         <Input
-                            placeholder="예: 강남역 맛집 (비워두면 창 닫기)"
+                            placeholder="예: 강남역 맛집 (비워두면 동작 안 함~)"
                             value={searchQuery}
                             className="h-12 text-base border-dashed"
                             onChange={(e) => setSearchQuery(e.target.value)}
