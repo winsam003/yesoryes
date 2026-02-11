@@ -43,7 +43,7 @@ export default function RunawayButtonPage() {
         animate={{ y: 0, opacity: 1 }}
         className="text-4xl md:text-5xl font-extrabold mb-12 text-slate-900 text-center"
       >
-        오늘 나랑 맛있는거 먹을래?? 👩‍❤️‍👨
+        나랑 오늘 맛있는 거 먹으러 갈래? 🍕
       </motion.h1>
 
       <div
