@@ -54,7 +54,11 @@ export default function RunawayButtonPage() {
           <Button
             size="lg"
             className="bg-primary text-white hover:bg-primary/90 rounded-full px-10 text-xl font-bold transition-all shadow-lg"
-            onClick={() => alert('나도좋아 !!!! 💞💞💞💞')}
+            onClick={() => {
+              alert('나도좋아 !!!! 💞💞💞💞\n지금 바로 맛집 찾아보자!');
+              // 네이버 '내 주변 맛집' 검색 결과로 리다이렉트
+              window.location.href = "https://search.naver.com/search.naver?query=내주변+맛집";
+            }}
           >
             예!
           </Button>
