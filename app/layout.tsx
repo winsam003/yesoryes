@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css"; // CSS 파일이 있다면 임포트
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: 'Yes or Yes 💍',
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body>
         {/* page.tsx의 내용이 여기에 들어갑니다 */}
         {children}
+        <Analytics />
       </body>
     </html>
   );
